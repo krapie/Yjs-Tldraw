@@ -7,7 +7,7 @@ const VERSION = 1;
 // Create the doc
 export const doc = new Y.Doc();
 
-export const roomID = `y-tldraw-${VERSION}`;
+export const roomID = `whiteboard-journey-with-y-tldraw-${VERSION}`;
 
 // Create a websocket provider
 export const provider = new WebsocketProvider(

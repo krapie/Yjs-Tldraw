@@ -1,24 +1,27 @@
 {
   "name": "yjs-tldraw",
+  "workspaces": [
+    "packages/tldraw"
+  ],
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
     "@tldraw/tldraw": "1.9.3",
-    "@types/react": "17.0.38",
-    "@types/react-dom": "17.0.11",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.3",
     "@y-presence/client": "1.1.8",
     "mobx": "6.3.10",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-scripts": "4.0.3",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-scripts": "5.0.1",
     "y-websocket": "1.4.0",
     "yjs": "13.6.0-2"
   },
   "devDependencies": {
-    "@types/react": "17.0.20",
-    "@types/react-dom": "17.0.9",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.3",
     "typescript": "4.4.2"
   },
   "scripts": {
